@@ -36,3 +36,15 @@ HÌNH THỨC LÀM BÀI:
 DEADLINE: 23H59 NGÀY 30/03/2025
 
 ---------------------- hết bài tập 3-------------------------------------------
+
+Ảnh 1:  
+Tạo bảng mới bằng cách mở Table Designer và nhập các cột:  
+id (nchar(10), không cho phép NULL)  
+id_dk (nchar(10), cho phép NULL)  
+diem (float, không cho phép NULL)  
+Nhấn "Save" để lưu bảng.  
+ Hộp thoại "Choose Name" xuất hiện, nhập tên bảng là "Diem".  
+ Nhấn "OK" để hoàn tất tạo bảng.  
+ ![Screenshot (63)](https://github.com/user-attachments/assets/42001854-2cbd-4d0c-918e-a10632875662)  
+
+ 
