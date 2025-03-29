@@ -1,7 +1,4 @@
-![Screenshot (68)](https://github.com/user-attachments/assets/1cce529d-bc88-465d-9705-a1f899561cf2)BÀI TẬP VỀ NHÀ 03 - MÔN HỆ QUẢN TRỊ CSDL:
-
-DEADLINE: 23H59 NGÀY 30/03/2025
-
+![Screenshot (90)](https://github.com/user-attachments/assets/73e21993-86b3-42d1-b2ce-9fa16c196220)![Screenshot (89)](https://github.com/user-attachments/assets/5a385506-19c7-4747-93b3-c6b5c96ed8a7)![Screenshot (85)](https://github.com/user-attachments/assets/49181f54-8f8b-45d8-aa39-f9ca49e8b976)BÀI TẬP VỀ NHÀ 03 - MÔN HỆ QUẢN TRỊ CSDL:
 ĐIỀU KIỆN: (ĐÃ LÀM XONG BÀI 2)
 
 BÀI TOÁN: Sửa bài 2 để có csdl như sau:
@@ -143,6 +140,196 @@ Kiểm tra kết quả hiển thị trong bảng Results
 ![Screenshot (75)](https://github.com/user-attachments/assets/62378323-3134-44a7-9886-e125adef98b1)  
 
 Ảnh 14:  
+Mở Object Explorer, mở rộng mục Databases và chọn QLSV.
+Chuột phải vào Database Diagrams, chọn New Database Diagram.
+Thực thi lệnh SQL để:
+Thêm dữ liệu vào bảng LopHP, DKMH, và Diem.
+Tính điểm thành phần (DiemThanhPhan) bằng cách chia DiemThi cho 100.
+Xem kết quả trong cửa sổ Results (hiển thị dữ liệu sinh viên SV01 với điểm đã tính).  
+![Screenshot (76)](https://github.com/user-attachments/assets/f0abd3f6-292a-433e-8c36-94d9c5f7f1d3)  
+
+Ảnh 15:  
+Mở Object Explorer, mở rộng mục Databases và chọn QLSV.
+Chuột phải vào Database Diagrams, chọn New Database Diagram.
+Hộp thoại Add Table xuất hiện, hiển thị danh sách các bảng trong cơ sở dữ liệu.
+Chọn bảng BoMon và Diem.
+Nhấn nút Add để thêm bảng vào sơ đồ  
+![Screenshot (77)](https://github.com/user-attachments/assets/8acdd8c5-b4d3-4ac3-8cf9-0444497aaac5)  
+
+Ảnh 16:  
+Mở Object Explorer, mở rộng mục Databases và chọn QLSV.
+Chuột phải vào Database Diagrams, chọn New Database Diagram.
+Thêm các bảng cần thiết từ danh sách vào sơ đồ.
+Các bảng được hiển thị với các quan hệ khóa ngoại được kết nối.
+Sơ đồ cơ sở dữ liệu được tạo thành công và hiển thị trên màn hình.  
+![Screenshot (78)](https://github.com/user-attachments/assets/68db489c-1997-4831-8185-31eda944813b)   
+
+Ảnh 17:  
+Trong Object Explorer, chuột phải vào cơ sở dữ liệu QLSV.
+Chọn Tasks.
+Chọn Generate Scripts... để tạo tập lệnh SQL cho cơ sở dữ liệu.  
+![Screenshot (79)](https://github.com/user-attachments/assets/06eedda7-c248-468c-b0c0-b7cb3d849a0e)  
+
+Ảnh 18:  
+Nhấn Next để bắt đầu quá trình tạo tập lệnh.
+Chọn các đối tượng cơ sở dữ liệu cần tạo tập lệnh.
+Thiết lập các tùy chọn tạo tập lệnh.
+Xem lại các lựa chọn.
+Tạo tập lệnh và lưu lại.  
+![Screenshot (80)](https://github.com/user-attachments/assets/a82f278e-09d0-47b9-8871-f05f9daaf2b7)  
+
+Ảnh 19:  
+Chọn "Script entire database and all database objects" nếu muốn sao lưu toàn bộ cơ sở dữ liệu.
+Hoặc chọn "Select specific database objects" để chỉ định các đối tượng cần sao lưu.
+Nhấn Next để tiếp tục.  
+![Screenshot (81)](https://github.com/user-attachments/assets/c40dcba7-b34d-46ec-9d33-a7f463ab924f)   
+
+Ảnh 20:   
+Nhấn Advanced, chọn Types of data to script, sau đó chọn Schema only nếu chỉ muốn xuất cấu trúc.
+Nhấn OK để lưu cài đặt, rồi tiếp tục với Next.  
+![Screenshot (82)](https://github.com/user-attachments/assets/5c03bba6-ac3e-415b-8b3f-eb546146c68e)  
+
+Ảnh 21:  
+Chọn Save as script file, nhập đường dẫn và tên file.
+Chọn Single script file, đánh dấu Overwrite existing file.
+Nhấn Next để tiếp tục.  
+![Screenshot (83)](https://github.com/user-attachments/assets/5e55e174-7e61-4bdd-bfe2-acc03ccfa791)  
+
+Ảnh 22:  
+Xác nhận lại các tùy chọn đã chọn, kiểm tra thông tin về nguồn, tệp lưu trữ và cài đặt.
+Nhấn Next để tiếp tục.  
+![Screenshot (84)](https://github.com/user-attachments/assets/008652c2-dcac-4138-8dba-13987f2f0b6a)  
+
+Ảnh 23:  
+Xác nhận quá trình tạo script đã hoàn tất với trạng thái Success.
+Nhấn Finish để kết thúc.   
+![Screenshot (85)](https://github.com/user-attachments/assets/2a263f2e-eceb-44ed-aa6f-370ae0ba7368)  
+
+Ảnh 24:  
+Nhấp chuột phải vào database QLSV trong Object Explorer
+Chọn Tasks → Generate Scripts... để bắt đầu tạo script cho database  
+![Screenshot (86)](https://github.com/user-attachments/assets/828fce28-5740-4a60-97b9-8f01d5dba19f)  
+
+Ảnh 25:  
+Nhấn Next để bắt đầu quá trình tạo script cho database.  
+![Screenshot (87)](https://github.com/user-attachments/assets/6c8e10a4-5dc5-4ac9-a484-d4799964bed7)  
+
+Ảnh 26:  
+Chọn database cần tạo script (QLSV).
+Nhấp chuột phải vào database → Chọn Tasks → Generate Scripts.
+Chọn đối tượng để tạo script, nhưng trong ảnh, danh sách bảng không hiển thị, có thể do quyền hoặc cấu hình.
+Tiếp tục các bước thiết lập và lưu script, nếu danh sách bảng hiển thị đúng.
+Có thể cần kiểm tra quyền hoặc đảm bảo database có bảng trước khi tiếp tục.  
+![Screenshot (88)](https://github.com/user-attachments/assets/061c35df-8d3d-4d5c-8c7a-d793fc219f86)  
+
+Ảnh 27:  
+Chọn database cần tạo script (QLSV).
+Nhấp chuột phải vào database → Chọn Tasks → Generate Scripts.
+Chọn đối tượng để tạo script, sau đó chọn Set Scripting Options.
+Nhấp vào Advanced để mở tùy chọn nâng cao.
+Thiết lập Types of data to script thành Data only hoặc tùy chỉnh khác.
+Nhấn OK để lưu cài đặt và tiếp tục các bước còn lại.   
+![Screenshot (89)](https://github.com/user-attachments/assets/70c542db-2d37-4924-bc0e-ad12262a21aa)  
+
+Ảnh 28:  
+Chọn Set Scripting Options trong quá trình tạo script.
+Chọn Save as script file để lưu script dưới dạng tệp.
+Chọn Single script file và đặt tên tệp tại đường dẫn mong muốn.
+Tích chọn Overwrite existing file nếu muốn ghi đè tệp cũ.
+Chọn định dạng Unicode text hoặc ANSI text.
+Nhấn Next để tiếp tục các bước còn lại.  
+![Screenshot (90)](https://github.com/user-attachments/assets/7246938a-4992-490f-9439-2cf3d14c3140)  
+
+Ảnh 29:  
+Xem lại các tùy chọn đã thiết lập trong quá trình tạo script.
+Kiểm tra thông tin server, database, đối tượng được script và đường dẫn lưu tệp.
+Xác nhận các tùy chọn về script dữ liệu và cấu trúc bảng.
+Nhấn Next để tiếp tục quá trình tạo script.  
+![Screenshot (91)](https://github.com/user-attachments/assets/39bbb348-f9bd-4d27-a85e-8b80f3d86eca)  
+
+Ảnh 30:  
+Quá trình tạo script đã hoàn tất.
+Tất cả các đối tượng trong cơ sở dữ liệu đã được chuẩn bị thành công.
+Script đã được lưu vào tệp theo đường dẫn đã chọn.
+Nhấn Finish để kết thúc quá trình.  
+![Screenshot (92)](https://github.com/user-attachments/assets/c5397cec-8fed-4601-8940-23fd611f35dc)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
